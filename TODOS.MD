@@ -7,9 +7,9 @@
 [] See hover and focus states for all interactive elements on the page
 
 **components**
-    [] Password generator container
-    [] Password text field
-    [] password generator 
+    [x] Password generator container
+    [x] Password text field
+    [x] password generator 
 
 **password generator container**
     [] password text field
