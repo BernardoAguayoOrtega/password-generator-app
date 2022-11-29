@@ -1,6 +1,9 @@
-function PasswordTextField() {
+function PasswordTextField({ password = "" }) {
   return (
-    <div aria-label='Password text field container'>Password text field</div>
+    <div aria-label='Password text field container'>
+      <p>{password}</p>
+      <button>Copy password to clipboard</button>
+    </div>
   );
 }
 
